@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Count from "./Count";
+import Count from "./Homework/Count";
 
-function DarkMode() {
+function ComponentOrigin() {
   // 여기서 필요 없으므로 Count 컴포넌트로 이동
   //   const [count, setCount] = useState(0);
   const [isDark, setIsDark] = useState(false);
@@ -23,4 +23,4 @@ function DarkMode() {
   );
 }
 
-export default DarkMode;
+export default ComponentOrigin;

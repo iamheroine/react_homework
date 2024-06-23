@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Count() {
+function CountOrigin() {
   const [count, setCount] = useState(0);
 
   return (
@@ -10,4 +10,4 @@ function Count() {
   );
 }
 
-export default Count;
+export default CountOrigin;

@@ -1,13 +1,13 @@
-import DarkMode from "./components/DarkMode";
-import SignIn from "./components/SignIn";
-import TodoList from "./components/TodoList";
+import Component from "./components/Homework/Component";
+import SignIn from "./components/Homework/SignIn";
+import TodoList from "./components/Homework/TodoList";
 
 function App() {
   return (
     <>
       <SignIn />
       <TodoList />
-      <DarkMode />
+      <Component />
     </>
   );
 }
